@@ -1,0 +1,214 @@
+
+
+.menu1 div {
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+}
+
+p{
+	font-size: 13px;
+	padding: 4px 8px;
+}
+ a{
+ 	text-decoration: none;
+ 	color: black;
+ }
+li{
+	
+	list-style-type: none;
+    color: white;
+}
+
+.tab {
+    float: left;
+    border: 1px solid #ccc;
+    background-color: #2f4f4f;
+    width: 14%;
+    color: white;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+    display: block;
+    background-color: inherit;
+    color: black;
+    padding: 5px 5px;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current "tab button" class */
+.tab button.active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+    float: left;
+    padding: 0px 12px;
+    border: 1px solid #ccc;
+    width: 83%;
+    border-left: none;
+    height: 650px;
+}
+.container-s {
+    background-color: white;
+    width: 80%;
+    border-radius: 30px;
+    padding: 10px;
+    margin: 2px 30px;
+
+}
+.container {
+    background-color: white;
+    width: 99%;
+    border-radius: 30px;
+    padding: 10px;
+
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+.column{
+    float: left;
+    width: 17%;
+    background-color:#ccc; 
+    margin: 0 10px 0;
+    border-radius: 4px;
+ 
+}
+
+.container1 {
+    border: 2px solid #ccc;
+    background-color: white;
+    width: 94%;
+    border-radius: 5px;
+    padding: 4px;
+    margin: 30px 19px;
+    box-shadow: 0 8px 22px 0 rgba(0, 0, 0, 0.5);
+
+}
+.cont{
+    background-color: white;
+    width: 99%;
+    border-radius: 5px;
+    padding: 4px;
+
+}
+.cont p{
+	font-size: 10px;
+}
+.first{
+    float: left;
+    width: 70%;
+    background-color:#3cb371; 
+}
+.second{
+    float: left;
+    width: 30%;
+    background-color:#ccc; 
+}
+.third{
+    float: left;
+    width: 60%;
+    background-color:#da70d6; 
+}
+.fouth{
+    float: left;
+    width: 40%;
+    background-color:#ccc; 
+}
+
+.tab-col{
+	border: 1px solid #ccc;
+    background-color: white;
+     float: left;
+    width: 32%;
+    border-radius: 4px;
+    margin:5px 5px;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #ddd;
+}
+
+/* Style table headers and table data */
+th, td {
+  text-align: center;
+  padding: 10px;
+  font-size: 11px;
+}
+
+th:first-child, td:first-child {
+  text-align: left;
+}
+
+/* Zebra-striped table rows */
+tr:nth-child(even) {
+  background-color: #f8f8ff;
+}
+
+.icone4{
+    float: right;
+    width: 7%;
+    border-radius: 4px;
+ 
+}
+.plus{
+	border: 1px solid #ccc;
+    background-color: orange;
+     float: left;
+     border-radius: 50%;
+     color: white;
+     margin-right: 10px;
+}
+
+
+form{
+	float: left;
+}
+img{
+	width: 2%;
+	border-radius: 50%;
+}
+.left{
+	float: left;
+	width: 70%;
+    
+}
+.right{
+	float: right;
+	width: 30%;
+
+}
+.ico{
+	margin-top: 30px;
+
+}
+
+@media screen and (max-width: 1000px){
+	.tabcontent {
+    padding: 0px 12px;
+    width: 100%;
+}
+.tab {
+    display: none;
+}
+}
